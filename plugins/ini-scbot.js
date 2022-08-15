@@ -8,8 +8,8 @@ let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 let name = await conn.getName(who)
 let tqto = `*${htki} SCRIPT ${htka}*
 
-*Wudysoft:*
-https://github.com/AyGemuy
+*Tch Cari sc?*
+Gak ada, buat sendiri sono
 `
 conn.sendButton(m.chat, tqto, wm, await(await fetch(logo)).buffer(), [['🎀 Menu', '/menu']], m, { fileLength: fsizedoc, seconds: fsizedoc, contextInfo: {
           externalAdReply :{
