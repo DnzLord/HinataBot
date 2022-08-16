@@ -80,13 +80,13 @@ global.xckey = 'BOhjM2hUVn'
 /*Number*/
 global.nomorbot = '6281335334848'
 global.nomorown = '6285785694474'
-global.namebot = 'Xiao Botz'
+global.namebot = 'Xiaoꪶ͢Botzꫂ⁩'
 global.nameown = '「 Xiao 」'
 
 /*Watermark*/
-global.wm = '                「 Xiao Botz あ⁩ 」'
+global.wm = '                「 Xiaoꪶ͢Botzꫂ⁩ あ⁩ 」'
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ Xiao Botz'
+global.wm3 = '⫹⫺ Xiaoꪶ͢Botzꫂ⁩'
 global.botdate = `⫹⫺ Date :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}`
 global.titlebot = `⫹⫺ Time Sever : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}\n⫹⫺ Date Server :  ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}`
@@ -427,9 +427,9 @@ global.htjava = '⫹⫺'
 
 /*Watermark*/
 global.stickpack = '.'
-global.stickauth = `☂︎ Xiao Botz\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `☂︎ Xiaoꪶ͢Botzꫂ⁩\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = '☂︎ Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.author = 'Xiao Botz'
+global.author = 'Xiaoꪶ͢Botzꫂ⁩'
 global.multiplier = 10
 
 /*Pesan*/
