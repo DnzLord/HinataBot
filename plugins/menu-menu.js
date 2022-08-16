@@ -34,7 +34,7 @@ let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
      }
      let math = max - xp
      let mim_ = ["application/vnd.openxmlformats-officedocument.presentationml.presentation","application/vnd.openxmlformats-officedocument.spreadsheetml.sheet","application/vnd.openxmlformats-officedocument.wordprocessingml.document","text/rtf"]
-     let lin_ = ["https://www.youtube.com","https://www.instagram.com","https://www.facebook.com"]
+     let lin_ = ["https://youtu.be/AbSOnEdByHg","https://www.instagram.com","https://www.facebook.com"]
      
   let cap = `*${htki} Information ${htka}*
 
