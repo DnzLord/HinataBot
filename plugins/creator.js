@@ -6,7 +6,7 @@ let name = await conn.getName(who)
 
 
 if (command == 'owner') {
- let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;Saya Owner Xiao;Botz;;Md\nFN:Saya Owner Xiao Botz WhatsApp, Md\nNICKNAME:👑 Owner Xiao Botz\nORG:Xiaoyu\nTITLE:soft\nitem1.TEL;waid=085785694474:+62 857-8569-2106\nitem1.X-ABLabel:📞 Nomor Owner\nitem2.URL:https://s.id/Cerdasin62\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET:Xiaoyu@mail.com\nitem3.X-ABLabel:💌 Mail Owner Xiao Botz\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:🔖 20 Juni 2006\nEND:VCARD`
+ let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:WhatsApp;Saya Owner Xiao;Botz;;Md\nFN:Saya Owner Xiao Botz\nNICKNAME:👑 Owner Xiao Botz\nORG:Xiaoyu\nTITLE:soft\nitem1.TEL;waid=6285785694474:+62 857-8569-4474\nitem1.X-ABLabel:📞 Nomor Owner\nitem2.URL:https://Instagram.com/jaka_dnz\nitem2.X-ABLabel:💬 More\nitem3.EMAIL;type=INTERNET:Xiaoyu@mail.com\nitem3.X-ABLabel:💌 Mail Owner Xiao Botz\nitem4.ADR:;;🇮🇩 Indonesia;;;;\nitem4.X-ABADR:💬 More\nitem4.X-ABLabel:📍 Lokasi Saya\nBDAY;value=date:🔖 20 Juni 2006\nEND:VCARD`
 const tag_own = await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard }] }}, { quoted: fliveLoc })
 let caption = `👋 Haii *${name} @${who.split("@")[0]}*, Nih Owner *${conn.user.name}* kak`
     await conn.sendButton(m.chat, caption, author, null, [['🎀 Sapa Owner', 'Huuu']], m, { quoted: tag_own, mentions: conn.parseMention(caption) })
